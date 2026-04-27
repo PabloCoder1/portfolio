@@ -1,12 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@theme {
+  --color-ink: #0D0D0D;
+  --color-slate: #1A1A1A;
+  --color-bone: #F0EDE8;
+  --color-mist: #9A9A9A;
+  --color-electric: #4F6EF7;
+  --color-glow: #C8FF00;
+  --color-border: #2A2A2A;
+  --font-family-inter: var(--font-inter), sans-serif;
+  --font-family-syne: var(--font-syne), sans-serif;
+}
+
+@import "tailwindcss";
 
 @layer base {
   :root {
     /* Cores de fallback/base */
     --background: #0D0D0D; /* ink */
     --foreground: #F0EDE8; /* bone */
+    --font-inter: var(--font-geist-sans);
   }
 
   html {
@@ -14,7 +25,7 @@
   }
 
   body {
-    @apply bg-ink text-bone font-inter antialiased;
+    @apply bg-ink text-bone font-sans antialiased;
     /* Estilização da seleção de texto para combinar com a marca */
     @apply selection:bg-electric selection:text-white;
   }
