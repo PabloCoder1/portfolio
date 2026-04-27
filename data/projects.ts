@@ -18,7 +18,8 @@ export const projects: Project[] = [
     category: 'Landing Page',
     description: 'Landing page de alta conversão para clínica de estética, com foco em CRO, design premium e copywriting estratégico para agendamentos.',
     tags: ['Next.js', 'Tailwind CSS', 'Framer Motion', 'CRO'],
-    image: '/images/projects/thuany-lima.jpg', // TODO: adicionar imagem real na pasta /public/images/projects/
+    liveUrl: 'https://tl-estetica-landing.vercel.app/',
+    image: '/images/projects/thuany-lima.png', // TODO: adicionar imagem real na pasta /public/images/projects/
     featured: true,
   },
   {
@@ -27,26 +28,28 @@ export const projects: Project[] = [
     category: 'Landing Page',
     description: 'Página de conversão para academia com background em vídeo na hero section, visual clean e foco total na experiência do usuário.',
     tags: ['React', 'TypeScript', 'UI/UX'],
-    image: '/images/projects/gym-performance.jpg', // TODO: adicionar imagem real na pasta /public/images/projects/
+    liveUrl: 'https://animal-gym-landing.vercel.app/',
+    image: '/images/projects/gym-performance.png', // TODO: adicionar imagem real na pasta /public/images/projects/
     featured: true,
   },
   {
     id: '03',
-    title: 'GoodHamburger',
-    category: 'E-commerce',
+    title: 'J Garcia Frutos do Mar',
+    category: 'Landing Page',
     description: 'Plataforma de pedidos online com interface moderna e sistema de carrinho otimizado para aumentar o ticket médio e facilitar a navegação.',
     tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-    liveUrl: 'https://github.com/PabloCoder1/Desafio-GoodHamburger',
-    image: '/images/projects/goodhamburger.jpg', // TODO: adicionar imagem real na pasta /public/images/projects/
+    liveUrl: 'https://j-garcia-site.vercel.app/',
+    image: '/images/projects/j-garcia.png', // TODO: adicionar imagem real na pasta /public/images/projects/
     featured: false,
   },
   {
     id: '04',
-    title: 'Thorogood Data',
-    category: 'Site Institucional',
-    description: 'Site corporativo focado em serviços especializados, aliado à otimização completa do perfil do Google Meu Negócio (GMN) para captura de leads locais.',
+    title: 'Mundo Animal',
+    category: 'Landing Page + GMN',
+    description: 'Página de conversão para Petshop com background em vídeo na hero section, visual clean e foco total na experiência do usuário.',
     tags: ['Next.js', 'SEO', 'GMN'],
-    image: '/images/projects/thorogood.jpg', // TODO: adicionar imagem real na pasta /public/images/projects/
+    liveUrl: 'https://mundo-animal-nu.vercel.app/',
+    image: '/images/projects/mundo-animal.png', // TODO: adicionar imagem real na pasta /public/images/projects/
     featured: false,
   }
 ];

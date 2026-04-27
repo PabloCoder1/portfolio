@@ -1,8 +1,8 @@
 // 📄 lib/contact.ts
 
 // TODO: Substituir pelo WhatsApp e e-mail reais antes de publicar
-export const WHATSAPP_NUMBER = '5500000000000'
-export const EMAIL = 'seuemail@exemplo.com'
+export const WHATSAPP_NUMBER = '5513991560814'
+export const EMAIL = 'pablolimacoder@gmail.com'
 
 export const whatsappLink = (service?: string): string => {
   const base = `https://wa.me/${WHATSAPP_NUMBER}`
